@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='xtras/icons8-calculator-50.png' type="image/x-icon" rel="icon">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body> <!--  -->
     
@@ -12,16 +13,31 @@
       
       <div id='calculator-header'><!-- solo contiene el encabezado de la calculadora, como podria ser el titulo, o alguna imágen -->
         <img 
-          src=''                
-          id=''
-          alt='' />
+          src='xtras/icono-casio.png'                
+          id='icono-casio'
+          alt='imagen logo casio' />
+
+          <div id="contenedor-diseño">
+            <div class="diseño">
+
+            </div>
+            <div class="diseño">
+
+            </div>
+            <div class="diseño">
+
+            </div>
+
+          </div>
+
+
       </div>
       
+      <input id='result' /><!-- este es el input que nos dará el producto de las operaciones -->
       <div id='container-buttons'><!-- este div contiene a la pantalla de los resultados y todos los botones -->
         
-        <input id='result' /><!-- este es el input que nos dará el producto de las operaciones -->
         <div id='buttons'>
-          <button class='button symbol' id='delete'>C</button>
+          <button class='button symbol clear' id='delete'>C</button>
           <button class='button symbol' id='parentheses'>()</button>
           <button class='button symbol' id='porcent'>%</button>
           <button class='button symbol' id='slash'>/</button>
